@@ -44,7 +44,6 @@ function MultiImageExample({updateData}) {
     <div className="flex flex-col items-center">
       <MultiFileDropzone
         value={fileStates}
-        disabled ={uploadRes.length > 0}
         dropzoneOptions={{
           maxFiles: 10,
           maxSize: 1024 * 1024 * 100, // 1 MB
